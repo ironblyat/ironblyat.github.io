@@ -4,30 +4,6 @@ body {
   background-color: #000000;
   font-family: "Lucida Grande", sans-serif;
 }
-
-H1 {text-align: center;
-font-size: 64px;
-}
-
-H2 {
-  font-size:30px;
-  text-shadow: 5px 5px 2px #808080;
-
-}
-
-P {
-  font-size: 24px;
-  padding-top: 20px;
-}
-
-IMG {
-  display: block;
-  width: 525px;
-  height: auto;
-  horizontal-align: center;
-
-}
-
 DIV {
   min-height: 150px;
   height: auto;
@@ -62,6 +38,31 @@ DIV {
   background-color: #008000;
   text-align: left;
 }
+
+H1 {text-align: center;
+font-size: 64px;
+}
+
+H2 {
+  font-size:30px;
+  text-shadow: 5px 5px 2px #808080;
+
+}
+
+P {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+IMG {
+  display: block;
+  width: 525px;
+  height: auto;
+  horizontal-align: center;
+
+}
+
+
 
 FOOTER > P {
   text-align:right;
