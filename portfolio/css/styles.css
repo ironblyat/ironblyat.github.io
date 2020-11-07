@@ -325,6 +325,12 @@ a.skip:focus {
     backface-visibility: hidden;
 }
 
+.card-front:hover {
+    filter: drop-shadow(4px 4px 4px #b0b0b0);
+    transform:scale(1.02);
+    transition: all 0.7s;
+}
+
 .card-front {
     background-color: #000;
     color: #fff;
