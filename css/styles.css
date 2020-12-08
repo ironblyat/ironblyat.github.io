@@ -542,6 +542,7 @@ video {
 }
 
 
+
 /* reduced motion */
 @media (prefers-reduced-motion: reduce) {
     .animated-text {
