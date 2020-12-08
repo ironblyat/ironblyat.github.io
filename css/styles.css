@@ -85,10 +85,10 @@ header > nav {
 }
 
 .name {
-    margin: 15px;
+    margin: 10px;
     padding-bottom: 30px;
-    text-decoration: double underline;
-    text-transform: uppercase;
+    text-decoration: underline;
+    text-transform: lowercase;
     color: #3107E8;
 }
 
@@ -500,26 +500,27 @@ button {
 .resume-card {
     padding: 15px 120px;
     margin-bottom: 10px;
+
 }
 
 .resume-role {
     font-weight: 700;
     text-align: left;
+    text-decoration: underline;
 }
 
 .daterange {
     text-align: right;
 }
 
-.flex-video {
-  margin-top: 50px;
-  align-items: center;
-  flex-direction:column;
-}
+
 
 video {
+  border: 100px;
+  border-color: #3107E8;
   height: 100%;
   width: 100%;
+
 }
 
 
