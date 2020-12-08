@@ -53,11 +53,11 @@
             <h1 class="name">Kartikeya Sundaram</h1>
             <div class="index-header">
                 <div id="index-big">
-                    <p class="inline animated-text">Hi! I'm Kartik.</p>
+                    <p class="inline animated-text">hi, I'm Kartik.</p>
                 </div>
-                <h2 id="index-small">I'm a UX Design student at the University of Michigan</h2>
-                <h2 id="index-small:"> Welcome to my Portfolio Page. To find out more about me, visit the <a href="pages/about.html">about</a> page!</h2>
-                <h2 id="index-small"> Below is some work I have done.
+                <h2 id="index-small">I'm a UX Design student at the University of Michigan <br>
+                Welcome to my Portfolio Page. To find out more about me, visit the <a href="pages/about.html" style = "color: #3107E8;">about</a> page!
+                <br>Below is some work I have done. </h2>
             </div>
 
             <!--Carousel begins-->
@@ -70,15 +70,15 @@
               </ol>
 
               <!--Slides-->
-              <div class="carousel-inner" role="listbox">
+              <div class="carousel-inner" role="listbox" aria-label="work carousel">
                 <!--First slide-->
-                <div class="carousel-item active">
+                <div class="carousel-item active" role = "option">
                   <img class="d-block w-100" src="assets/thumbnails/mcd.jpg"
                     alt="Carousel slide McDonalds">
                 </div>
 
                 <!--Second slide-->
-                <div class="carousel-item">
+                <div class="carousel-item" role = "option">
                   <img class="d-block w-100" src="assets/thumbnails/pcrc.jpeg"
                     alt="Carousel slide Post Conflict Research Center">
                 </div>
@@ -97,13 +97,13 @@
               </a>
               <!-- adding the play and pause button for the carousel using JQuery -->
               <div class="btn-group" id="carouselButtons">
-                  <button class="btn btn-danger btn-lg" id="carousel-pause"
+                  <button aria-label="carousel pause" class="btn btn-danger btn-lg" id="carousel-pause"
                   style ="background-color:#000; border-color: #000; font-family: 'Karla', sans-serif;
                   padding: auto; border-radius:0%; margin-right: .5rem; margin-top: .5rem;
                   font-size: 1em;">
                       <span aria-hidden="true">Pause</span>
                   </button>
-                  <button class="btn btn-danger btn-lg" id="carousel-play"
+                  <button aria-label="carousel play" class="btn btn-danger btn-lg" id="carousel-play"
                   style ="background-color:#000; border-color: #000; font-family: 'Karla', sans-serif;
                   font-size: 1em; outline: none; border-radius: 0%; margin-top: .5rem">
                       <span class="glyphicon glyphicon-play" aria-hidden="true">Play</span>
