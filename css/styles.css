@@ -543,6 +543,10 @@ button :active{
 }
 
 
+::placeholder {
+  color: black;
+  opacity: 1;
+}
 
 video {
   border: 100px;
