@@ -92,9 +92,26 @@ header > nav {
     color: #3107E8;
 }
 
+h1 {
+   margin: 10px;
+   padding-bottom: 30px;
+   text-decoration: underline;
+   text-transform: lowercase;
+   color: #3107E8;
+}
+
 main {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+form {
+
+  color: #3107E8
+}
+
+#contact-header {
+  color: black;
 }
 
 .inline {
@@ -340,7 +357,7 @@ a.skip:focus {
 }
 
 .card-back {
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     transform: rotateY(180deg);
     vertical-align: middle;
@@ -349,12 +366,13 @@ a.skip:focus {
 
 .card-back h1, .card-back p {
     padding-top: 40px;
+    color: #fff
 }
 
 .play-card img {
     width: 300px;
     height: auto;
-    background-color: #2a2a2a;
+    background-color: #6e6e6e;
 }
 
 #heading {
